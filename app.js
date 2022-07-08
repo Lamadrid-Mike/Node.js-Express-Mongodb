@@ -60,7 +60,7 @@ app.use("/users", usersRouter);
 
 app.use(express.static(path.join(__dirname, "public")));
 
-// LINKS OF DIFFERENT ROUTES
+// LINKS OF THE ROUTES
 app.use("/campsites", campsiteRouter);
 app.use("/promotions", promotionRouter);
 app.use("/partners", partnerRouter);
